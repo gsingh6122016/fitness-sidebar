@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px 0px 20px;
+}
+
+.header__icons {
+    flex:0.4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user {
+    display: flex;
+    flex: 0.6;
+    justify-content: flex-start;
+}
+
+.user > img {
+    width: 40px;
+    border-radius: 100%;
+}
+
+.header__notification__icon {
+    padding: 0;
+}
+
+.header__details {
+    margin-left: 10px;
+}

@@ -1,0 +1,57 @@
+.training {
+display: flex;
+padding:10px 5px 10px 15px;
+margin: 10px 0 10px;
+border-radius: 10px;
+box-shadow: 0 10px 15px -6px #777;
+-webkit-box-shadow: 0 10px 15px -6px #777;
+-moz-box-shadow: 0 10px 15px -6px #777;
+}
+
+.training__left {
+    display: flex;
+    flex-direction: column;
+    flex:0.3;
+}
+
+.training__right{
+    flex: 0.6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.training > span{
+    display: flex;
+    flex: 0.1;
+    justify-content: flex-end;
+}
+
+
+
+.training__left > h4 {
+margin: 0 0 5px 0;
+}
+
+.training__left > p {
+    font-size: small;
+    margin: 0 0 5px 0;
+}
+
+.training__left__timing {
+    background-color: white;
+    border-radius: 5px;
+    width: 50px;
+    padding: 3px;
+    text-align: center;
+    margin-top: 5px;
+    color: black;
+}
+
+@media(max-width: 1200px) {
+    .training__card__title {
+        font-size: smaller;
+    }
+}
